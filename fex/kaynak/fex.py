@@ -1,7 +1,7 @@
 import tkinter as tk
 import subprocess
 import sys
-import time
+
 
 def restart_program():
     subprocess.Popen([sys.executable, sys.argv[0]])
